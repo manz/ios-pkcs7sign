@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145B8D55168C62D500F7DC0A /* manz@ringum.net.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 145B8D54168C62D500F7DC0A /* manz@ringum.net.p12 */; };
+		145B8D57168C739900F7DC0A /* mycert.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 145B8D56168C739900F7DC0A /* mycert.p12 */; };
+		145B8DB7168D878C00F7DC0A /* PrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 145B8DB6168D878C00F7DC0A /* PrivateKey.m */; };
+		145B8DBC168D894C00F7DC0A /* KeyStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 145B8DBA168D894C00F7DC0A /* KeyStore.xcdatamodeld */; };
+		1469DFAD1675D17E0064E8E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1469DFAC1675D17E0064E8E7 /* UIKit.framework */; };
+		1469DFAF1675D17E0064E8E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1469DFAE1675D17E0064E8E7 /* Foundation.framework */; };
+		1469DFB11675D17E0064E8E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1469DFB01675D17E0064E8E7 /* CoreGraphics.framework */; };
+		1469DFB71675D17E0064E8E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1469DFB51675D17E0064E8E7 /* InfoPlist.strings */; };
+		1469DFB91675D17E0064E8E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DFB81675D17E0064E8E7 /* main.m */; };
+		1469DFBD1675D17E0064E8E7 /* ADLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DFBC1675D17E0064E8E7 /* ADLAppDelegate.m */; };
+		1469DFBF1675D17E0064E8E7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1469DFBE1675D17E0064E8E7 /* Default.png */; };
+		1469DFC11675D17E0064E8E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1469DFC01675D17E0064E8E7 /* Default@2x.png */; };
+		1469DFC31675D17E0064E8E7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1469DFC21675D17E0064E8E7 /* Default-568h@2x.png */; };
+		1469DFC61675D17E0064E8E7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1469DFC41675D17E0064E8E7 /* MainStoryboard_iPhone.storyboard */; };
+		1469DFC91675D17E0064E8E7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1469DFC71675D17E0064E8E7 /* MainStoryboard_iPad.storyboard */; };
+		1469DFCC1675D17E0064E8E7 /* ADLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DFCB1675D17E0064E8E7 /* ADLViewController.m */; };
+		1469DFD41675D17E0064E8E7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1469DFD31675D17E0064E8E7 /* SenTestingKit.framework */; };
+		1469DFD51675D17E0064E8E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1469DFAC1675D17E0064E8E7 /* UIKit.framework */; };
+		1469DFD61675D17E0064E8E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1469DFAE1675D17E0064E8E7 /* Foundation.framework */; };
+		1469DFDE1675D17E0064E8E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1469DFDC1675D17E0064E8E7 /* InfoPlist.strings */; };
+		1469DFE11675D17E0064E8E7 /* LiberSignOpenSSLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DFE01675D17E0064E8E7 /* LiberSignOpenSSLTests.m */; };
+		146CD272168C28DF00B3B9BF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146CD271168C28DF00B3B9BF /* CoreData.framework */; };
+		146CD27B168C29FD00B3B9BF /* ADLKeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 146CD27A168C29FD00B3B9BF /* ADLKeyStore.m */; };
+		E039BB7669984753A0F23558 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5342CD77629540948D3B877A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1469DFD71675D17E0064E8E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1469DF9F1675D17E0064E8E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1469DFA71675D17E0064E8E7;
+			remoteInfo = LiberSignOpenSSL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145B8D54168C62D500F7DC0A /* manz@ringum.net.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "manz@ringum.net.p12"; sourceTree = "<group>"; };
+		145B8D56168C739900F7DC0A /* mycert.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mycert.p12; sourceTree = "<group>"; };
+		145B8DB5168D878C00F7DC0A /* PrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateKey.h; sourceTree = "<group>"; };
+		145B8DB6168D878C00F7DC0A /* PrivateKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateKey.m; sourceTree = "<group>"; };
+		145B8DBB168D894C00F7DC0A /* KeyStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeyStore.xcdatamodel; sourceTree = "<group>"; };
+		1469DFA81675D17E0064E8E7 /* LiberSignOpenSSL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiberSignOpenSSL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1469DFAC1675D17E0064E8E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1469DFAE1675D17E0064E8E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1469DFB01675D17E0064E8E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1469DFB41675D17E0064E8E7 /* LiberSignOpenSSL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiberSignOpenSSL-Info.plist"; sourceTree = "<group>"; };
+		1469DFB61675D17E0064E8E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1469DFB81675D17E0064E8E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1469DFBA1675D17E0064E8E7 /* LiberSignOpenSSL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiberSignOpenSSL-Prefix.pch"; sourceTree = "<group>"; };
+		1469DFBB1675D17E0064E8E7 /* ADLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADLAppDelegate.h; sourceTree = "<group>"; };
+		1469DFBC1675D17E0064E8E7 /* ADLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADLAppDelegate.m; sourceTree = "<group>"; };
+		1469DFBE1675D17E0064E8E7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1469DFC01675D17E0064E8E7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1469DFC21675D17E0064E8E7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1469DFC51675D17E0064E8E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1469DFC81675D17E0064E8E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		1469DFCA1675D17E0064E8E7 /* ADLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADLViewController.h; sourceTree = "<group>"; };
+		1469DFCB1675D17E0064E8E7 /* ADLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADLViewController.m; sourceTree = "<group>"; };
+		1469DFD21675D17E0064E8E7 /* LiberSignOpenSSLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiberSignOpenSSLTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1469DFD31675D17E0064E8E7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1469DFDB1675D17E0064E8E7 /* LiberSignOpenSSLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiberSignOpenSSLTests-Info.plist"; sourceTree = "<group>"; };
+		1469DFDD1675D17E0064E8E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1469DFDF1675D17E0064E8E7 /* LiberSignOpenSSLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiberSignOpenSSLTests.h; sourceTree = "<group>"; };
+		1469DFE01675D17E0064E8E7 /* LiberSignOpenSSLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiberSignOpenSSLTests.m; sourceTree = "<group>"; };
+		146CD271168C28DF00B3B9BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		146CD279168C29FD00B3B9BF /* ADLKeyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLKeyStore.h; sourceTree = "<group>"; };
+		146CD27A168C29FD00B3B9BF /* ADLKeyStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLKeyStore.m; sourceTree = "<group>"; };
+		16B425C26C7549529A233A93 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		5342CD77629540948D3B877A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1469DFA51675D17E0064E8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146CD272168C28DF00B3B9BF /* CoreData.framework in Frameworks */,
+				1469DFAD1675D17E0064E8E7 /* UIKit.framework in Frameworks */,
+				1469DFAF1675D17E0064E8E7 /* Foundation.framework in Frameworks */,
+				1469DFB11675D17E0064E8E7 /* CoreGraphics.framework in Frameworks */,
+				E039BB7669984753A0F23558 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1469DFCE1675D17E0064E8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1469DFD41675D17E0064E8E7 /* SenTestingKit.framework in Frameworks */,
+				1469DFD51675D17E0064E8E7 /* UIKit.framework in Frameworks */,
+				1469DFD61675D17E0064E8E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145B8DB2168D856500F7DC0A /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				145B8DB5168D878C00F7DC0A /* PrivateKey.h */,
+				145B8DB6168D878C00F7DC0A /* PrivateKey.m */,
+				145B8DBA168D894C00F7DC0A /* KeyStore.xcdatamodeld */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		1469DF9D1675D17E0064E8E7 = {
+			isa = PBXGroup;
+			children = (
+				145B8DB2168D856500F7DC0A /* Data Model */,
+				1469DFB21675D17E0064E8E7 /* LiberSignOpenSSL */,
+				1469DFD91675D17E0064E8E7 /* LiberSignOpenSSLTests */,
+				1469DFAB1675D17E0064E8E7 /* Frameworks */,
+				1469DFA91675D17E0064E8E7 /* Products */,
+				16B425C26C7549529A233A93 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		1469DFA91675D17E0064E8E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1469DFA81675D17E0064E8E7 /* LiberSignOpenSSL.app */,
+				1469DFD21675D17E0064E8E7 /* LiberSignOpenSSLTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1469DFAB1675D17E0064E8E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				146CD271168C28DF00B3B9BF /* CoreData.framework */,
+				1469DFAC1675D17E0064E8E7 /* UIKit.framework */,
+				1469DFAE1675D17E0064E8E7 /* Foundation.framework */,
+				1469DFB01675D17E0064E8E7 /* CoreGraphics.framework */,
+				1469DFD31675D17E0064E8E7 /* SenTestingKit.framework */,
+				5342CD77629540948D3B877A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1469DFB21675D17E0064E8E7 /* LiberSignOpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				1469DFEA1675D1990064E8E7 /* KeyStore */,
+				1469DFBB1675D17E0064E8E7 /* ADLAppDelegate.h */,
+				1469DFBC1675D17E0064E8E7 /* ADLAppDelegate.m */,
+				1469DFC41675D17E0064E8E7 /* MainStoryboard_iPhone.storyboard */,
+				1469DFC71675D17E0064E8E7 /* MainStoryboard_iPad.storyboard */,
+				1469DFCA1675D17E0064E8E7 /* ADLViewController.h */,
+				1469DFCB1675D17E0064E8E7 /* ADLViewController.m */,
+				1469DFB31675D17E0064E8E7 /* Supporting Files */,
+			);
+			path = LiberSignOpenSSL;
+			sourceTree = "<group>";
+		};
+		1469DFB31675D17E0064E8E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				145B8D56168C739900F7DC0A /* mycert.p12 */,
+				145B8D54168C62D500F7DC0A /* manz@ringum.net.p12 */,
+				1469DFB41675D17E0064E8E7 /* LiberSignOpenSSL-Info.plist */,
+				1469DFB51675D17E0064E8E7 /* InfoPlist.strings */,
+				1469DFB81675D17E0064E8E7 /* main.m */,
+				1469DFBA1675D17E0064E8E7 /* LiberSignOpenSSL-Prefix.pch */,
+				1469DFBE1675D17E0064E8E7 /* Default.png */,
+				1469DFC01675D17E0064E8E7 /* Default@2x.png */,
+				1469DFC21675D17E0064E8E7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1469DFD91675D17E0064E8E7 /* LiberSignOpenSSLTests */ = {
+			isa = PBXGroup;
+			children = (
+				1469DFDF1675D17E0064E8E7 /* LiberSignOpenSSLTests.h */,
+				1469DFE01675D17E0064E8E7 /* LiberSignOpenSSLTests.m */,
+				1469DFDA1675D17E0064E8E7 /* Supporting Files */,
+			);
+			path = LiberSignOpenSSLTests;
+			sourceTree = "<group>";
+		};
+		1469DFDA1675D17E0064E8E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1469DFDB1675D17E0064E8E7 /* LiberSignOpenSSLTests-Info.plist */,
+				1469DFDC1675D17E0064E8E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1469DFEA1675D1990064E8E7 /* KeyStore */ = {
+			isa = PBXGroup;
+			children = (
+				146CD279168C29FD00B3B9BF /* ADLKeyStore.h */,
+				146CD27A168C29FD00B3B9BF /* ADLKeyStore.m */,
+			);
+			name = KeyStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1469DFA71675D17E0064E8E7 /* LiberSignOpenSSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1469DFE41675D17E0064E8E7 /* Build configuration list for PBXNativeTarget "LiberSignOpenSSL" */;
+			buildPhases = (
+				1469DFA41675D17E0064E8E7 /* Sources */,
+				1469DFA51675D17E0064E8E7 /* Frameworks */,
+				1469DFA61675D17E0064E8E7 /* Resources */,
+				4844830A4A5B463AA61B1D16 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiberSignOpenSSL;
+			productName = LiberSignOpenSSL;
+			productReference = 1469DFA81675D17E0064E8E7 /* LiberSignOpenSSL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1469DFD11675D17E0064E8E7 /* LiberSignOpenSSLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1469DFE71675D17E0064E8E7 /* Build configuration list for PBXNativeTarget "LiberSignOpenSSLTests" */;
+			buildPhases = (
+				1469DFCD1675D17E0064E8E7 /* Sources */,
+				1469DFCE1675D17E0064E8E7 /* Frameworks */,
+				1469DFCF1675D17E0064E8E7 /* Resources */,
+				1469DFD01675D17E0064E8E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1469DFD81675D17E0064E8E7 /* PBXTargetDependency */,
+			);
+			name = LiberSignOpenSSLTests;
+			productName = LiberSignOpenSSLTests;
+			productReference = 1469DFD21675D17E0064E8E7 /* LiberSignOpenSSLTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1469DF9F1675D17E0064E8E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ADL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Emmanuel Peralta";
+			};
+			buildConfigurationList = 1469DFA21675D17E0064E8E7 /* Build configuration list for PBXProject "LiberSignOpenSSL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1469DF9D1675D17E0064E8E7;
+			productRefGroup = 1469DFA91675D17E0064E8E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1469DFA71675D17E0064E8E7 /* LiberSignOpenSSL */,
+				1469DFD11675D17E0064E8E7 /* LiberSignOpenSSLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1469DFA61675D17E0064E8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1469DFB71675D17E0064E8E7 /* InfoPlist.strings in Resources */,
+				1469DFBF1675D17E0064E8E7 /* Default.png in Resources */,
+				1469DFC11675D17E0064E8E7 /* Default@2x.png in Resources */,
+				1469DFC31675D17E0064E8E7 /* Default-568h@2x.png in Resources */,
+				1469DFC61675D17E0064E8E7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				1469DFC91675D17E0064E8E7 /* MainStoryboard_iPad.storyboard in Resources */,
+				145B8D55168C62D500F7DC0A /* manz@ringum.net.p12 in Resources */,
+				145B8D57168C739900F7DC0A /* mycert.p12 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1469DFCF1675D17E0064E8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1469DFDE1675D17E0064E8E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1469DFD01675D17E0064E8E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		4844830A4A5B463AA61B1D16 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1469DFA41675D17E0064E8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1469DFB91675D17E0064E8E7 /* main.m in Sources */,
+				1469DFBD1675D17E0064E8E7 /* ADLAppDelegate.m in Sources */,
+				1469DFCC1675D17E0064E8E7 /* ADLViewController.m in Sources */,
+				146CD27B168C29FD00B3B9BF /* ADLKeyStore.m in Sources */,
+				145B8DB7168D878C00F7DC0A /* PrivateKey.m in Sources */,
+				145B8DBC168D894C00F7DC0A /* KeyStore.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1469DFCD1675D17E0064E8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1469DFE11675D17E0064E8E7 /* LiberSignOpenSSLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1469DFD81675D17E0064E8E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1469DFA71675D17E0064E8E7 /* LiberSignOpenSSL */;
+			targetProxy = 1469DFD71675D17E0064E8E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1469DFB51675D17E0064E8E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1469DFB61675D17E0064E8E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1469DFC41675D17E0064E8E7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1469DFC51675D17E0064E8E7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1469DFC71675D17E0064E8E7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1469DFC81675D17E0064E8E7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1469DFDC1675D17E0064E8E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1469DFDD1675D17E0064E8E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1469DFE21675D17E0064E8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1469DFE31675D17E0064E8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1469DFE51675D17E0064E8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B425C26C7549529A233A93 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiberSignOpenSSL/LiberSignOpenSSL-Prefix.pch";
+				INFOPLIST_FILE = "LiberSignOpenSSL/LiberSignOpenSSL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1469DFE61675D17E0064E8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B425C26C7549529A233A93 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiberSignOpenSSL/LiberSignOpenSSL-Prefix.pch";
+				INFOPLIST_FILE = "LiberSignOpenSSL/LiberSignOpenSSL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1469DFE81675D17E0064E8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LiberSignOpenSSL.app/LiberSignOpenSSL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiberSignOpenSSL/LiberSignOpenSSL-Prefix.pch";
+				INFOPLIST_FILE = "LiberSignOpenSSLTests/LiberSignOpenSSLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1469DFE91675D17E0064E8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LiberSignOpenSSL.app/LiberSignOpenSSL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiberSignOpenSSL/LiberSignOpenSSL-Prefix.pch";
+				INFOPLIST_FILE = "LiberSignOpenSSLTests/LiberSignOpenSSLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1469DFA21675D17E0064E8E7 /* Build configuration list for PBXProject "LiberSignOpenSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1469DFE21675D17E0064E8E7 /* Debug */,
+				1469DFE31675D17E0064E8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1469DFE41675D17E0064E8E7 /* Build configuration list for PBXNativeTarget "LiberSignOpenSSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1469DFE51675D17E0064E8E7 /* Debug */,
+				1469DFE61675D17E0064E8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1469DFE71675D17E0064E8E7 /* Build configuration list for PBXNativeTarget "LiberSignOpenSSLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1469DFE81675D17E0064E8E7 /* Debug */,
+				1469DFE91675D17E0064E8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		145B8DBA168D894C00F7DC0A /* KeyStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				145B8DBB168D894C00F7DC0A /* KeyStore.xcdatamodel */,
+			);
+			currentVersion = 145B8DBB168D894C00F7DC0A /* KeyStore.xcdatamodel */;
+			path = KeyStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1469DF9F1675D17E0064E8E7 /* Project object */;
+}
